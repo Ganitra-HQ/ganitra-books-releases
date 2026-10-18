@@ -13,8 +13,8 @@ For whoever ships Ganitra Books. Releases are made only with `publish.mjs`, from
 2. From a clone of this repository:
 
    ```powershell
-   node publish.mjs "C:\code\ganitra-books\target\release\bundle\nsis\Ganitra Books_0.1.0_x64-setup.exe" `
-     --notes notes.md --site C:\code\ms-babu-associates\site
+   node publish.mjs "<Ganitra Books repo>\target\release\bundle\nsis\Ganitra Books_0.1.0_x64-setup.exe" `
+     --notes notes.md --site "<website folder>"
    ```
 
    Add `--allow-unsigned` while the installer is not code-signed. `--notes` and `--site` are optional.
