@@ -1,0 +1,3 @@
+# Installers are uploaded to releases, never committed.
+*.exe
+*.msi
